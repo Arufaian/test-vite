@@ -1,6 +1,8 @@
 import "./css/index.css";
 import anime from "animejs/lib/anime.es.js";
 import succesImage from "../public/heart.gif";
+import failSound from "../public/music/nggak.mp3";
+import succes from "../public/music/saveNsound.mp3";
 
 const header = document.querySelector("#header");
 const nggakMau = document.querySelector("#nggak");
@@ -17,7 +19,7 @@ nggakMau.addEventListener("click", function () {
   let randomX = Math.floor(Math.random() * (width * 0.5)) + 1;
   let randomY = Math.floor(Math.random() * (height * 0.5)) + 1;
 
-  playAudio("nggak");
+  playAudio(failSound);
 
   anime({
     targets: nggakMau,
@@ -67,6 +69,6 @@ function printMainSection() {
 }
 
 function playAudio(song) {
-  let audio = new Audio(`../public/music/${song}.mp3`);
+  let audio = new Audio(song);
   audio.play();
 }
