@@ -1,15 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./src/css/index.css">
-</head>
-<body>
-  <h1>heloo mom</h1>
-  <div class="kotak bg-red-400 w-10 h-10"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalo diterima push up 100 kali</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-fredoka bg-slate-50">
+    <header>
+      <div class="container py-12">
+        <div class="text-center">
+          <h1 id="header" class="font-bold text-4xl text-slate-800">
+            Mau nggak jadi Protaktinium, Karbon, Argon aku
+          </h1>
+        </div>
+      </div>
+    </header>
 
-  <script type="module" src="./src/wanjay.js"></script>
-</body>
+    <!-- main section -->
+    <section class="block">
+      <div id="main-section" class="container">
+        <div class="w-full flex justify-center">
+          <div class="p-8 max-w-xl">
+            <img
+              id="image"
+              src="./public/smolverse-smol.gif"
+              alt=""
+              class="mb-8"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- button section -->
+    <section class="">
+      <div id="button-field" class="container">
+        <div class="w-full flex justify-around py-14">
+          <div class="">
+            <button
+              id="nggak"
+              class="block w-32 h-12 rounded-xl text-slate-100 bg-slate-900 hover:opacity-85"
+            >
+              Nggak mau ah
+            </button>
+          </div>
+          <div class="">
+            <button
+              id="mau"
+              class="block w-32 h-12 rounded-xl text-slate-100 bg-pink-400 hover:bg-pink-300"
+            >
+              Iya deh
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
 </html>
