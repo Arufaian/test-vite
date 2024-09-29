@@ -38,7 +38,7 @@ nggakMau.addEventListener("click", function () {
     nggakMau.textContent = "hiks hiks";
   } else if (failure > 17) {
     document.location.href =
-      "https://www.w3schools.com/jsref/prop_loc_href.asp";
+      "https://www.youtube.com/watch?v=iz7hDDlW8yQ&t=64s";
   }
 
   console.log(failure);
@@ -51,7 +51,7 @@ mau.addEventListener("click", function () {
 });
 
 function printMainSection() {
-  playAudio("saveNsound");
+  playAudio(succes);
   return `<div class="w-full flex justify-center">
           <div class="p-8 max-w-xl">
             <img
