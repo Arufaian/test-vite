@@ -1,5 +1,6 @@
 import "./css/index.css";
 import anime from "animejs/lib/anime.es.js";
+import succesImage from "../public/heart.gif";
 
 const header = document.querySelector("#header");
 const nggakMau = document.querySelector("#nggak");
@@ -53,7 +54,7 @@ function printMainSection() {
           <div class="p-8 max-w-xl">
             <img
               id="image"
-              src="../public/heart.gif"
+              src="${succesImage}"
               alt=""
               class="mb-8"
             />
